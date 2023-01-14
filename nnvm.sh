@@ -1,6 +1,6 @@
 #!/bin/bash
 
-	#Length verification for firstElem
+	#elemnt verification
 	firstElem=$1
 	secondElem=$2
 	thirdElem=$3
