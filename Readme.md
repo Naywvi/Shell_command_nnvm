@@ -24,5 +24,3 @@ Copy and paste the contents of nnvm.sh into the newly created /usr/bin/nnvm file
 With nnvm, you can elevate your virtualization game and automate your VM setup like a pro.
 
 🛠️ Happy virtualization! 🛠️
-
-Vous pouvez copier et coller ce markdown amélioré dans votre fichier README.md.
