@@ -1,9 +1,36 @@
-nnvm est un 'paquet' ou bien une commande permettant de configuré automatiquement une nouvelle vm.
-La commande de base > nnvm
-Vous pourrez faire 'nnvm -help' afin d'en s'avoir plus
+# nnvm - Automatic VM Configuration Tool
 
->
-> <p>touch /usr/bin/nnvm</p>
-> <p>chmod +x /usr/bin/nnvm</p>
-> <p>et copier/coller nnvm.sh</p>
->
+`nnvm` is a command-line tool designed to streamline the process of configuring new virtual machines (VMs). It simplifies the setup of VMs by providing a straightforward command:
+
+nnvm
+
+arduino
+Copy code
+
+For more information and available options, you can run:
+
+nnvm -help
+
+go
+Copy code
+
+## Installation
+
+To install `nnvm` and make it accessible as a system-wide command, follow these steps:
+
+1. Create a new file named `nnvm` in the `/usr/bin/` directory:
+
+   ```shell
+   sudo touch /usr/bin/nnvm
+Make the nnvm file executable:
+
+shell
+Copy code
+sudo chmod +x /usr/bin/nnvm
+Copy and paste the contents of nnvm.sh into the newly created /usr/bin/nnvm file.
+
+nnvm simplifies VM setup and can be a valuable tool for automating virtualization tasks.
+
+Copy code
+
+Vous pouvez copier et coller ce markdown dans votre fichier README.md.
